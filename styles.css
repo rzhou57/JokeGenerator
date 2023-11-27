@@ -1,0 +1,98 @@
+*{
+    background-color: lightblue;
+    color: darkslategrey;
+}
+
+h1 {
+    color: navy;
+    font-family: Monaco;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Monaco;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: larger;
+    
+    padding: 30px;
+    margin: 50px;
+}
+
+.left-box {
+    background-color: coral;
+    margin: 20px;
+    width: 30vw;
+    height: 50vh;
+    border-radius: 30px;
+    
+
+    /* center the code */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+
+    flex-wrap: wrap;
+    min-width: 300px; 
+    flex-direction: column;
+    padding: 15px;
+}
+
+.right-box {
+    background-color: coral;
+    margin: 20px;
+    width: 30vw;
+    height: 50vh;
+    border-radius: 30px;
+
+    /* center the code */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    min-width: 300px; 
+    flex-direction: column;
+
+    padding: 15px;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.description {
+    background-color: coral;
+}
+
+#joke {
+    background-color: coral;
+}
+
+#button {
+    display: flex;
+    height: 50px;
+    border-radius: 5px;
+    border-color: tan;
+    transition: transform 600ms;
+    background-color: lightgoldenrodyellow;
+    align-items: center;
+}
+
+#button:hover {
+    transform: scale(1.5);
+}
+
+#photo {
+    display: flex;
+    width: 300px;
+    max-height: auto;
+}
+
+
